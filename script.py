@@ -23,7 +23,6 @@ def load_logs(file_path: str) -> list:
     except Exception:
         print("File error")
         sys.exit()
-        
 
     return logs_list
 
